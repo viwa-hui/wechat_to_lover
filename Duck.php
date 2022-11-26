@@ -238,7 +238,7 @@ class Duck
 
         foreach ($data['cityLists'] as $city)
         {
-            if($city['city'] == "成都")
+            if($city['city'] == "梅州")
             {
                 $feiYan = [
                     "新增确诊" => $city['lastLocalSureNew'],
